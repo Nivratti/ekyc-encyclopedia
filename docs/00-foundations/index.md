@@ -46,5 +46,5 @@ graph TD
     style F fill:#4051B5,color:#fff
 ```
 
-!!! tip "Recommended Starting Point"
-    If you're completely new to eKYC, start with **[What is KYC](what-is-kyc.md)** and follow the reading order above. If you already know the basics, jump directly to **[eKYC End-to-End Flow](ekyc-end-to-end-flow.md)** for the complete technical picture.
+!!! success "Section Complete ✅"
+    All 12 articles in the Foundations section are complete. Start with **[What is KYC](what-is-kyc.md)** and follow the reading order above, or jump directly to **[eKYC End-to-End Flow](ekyc-end-to-end-flow.md)** for the complete technical picture.
