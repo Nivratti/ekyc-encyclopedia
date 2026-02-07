@@ -1,0 +1,119 @@
+site_name: "eKYC Knowledge Base"
+site_description: "The Complete Encyclopedia of Electronic Know Your Customer — 210+ In-Depth Articles"
+site_author: "Niv"
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.mark
+  - pymdownx.critic
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - "Foundations":
+    - 00-foundations/index.md
+    - "What is KYC": 00-foundations/what-is-kyc.md
+    - "What is eKYC": 00-foundations/what-is-ekyc.md
+    - "KYC vs eKYC": 00-foundations/kyc-vs-ekyc.md
+    - "Why eKYC Matters": 00-foundations/why-ekyc-matters.md
+    - "eKYC Ecosystem Overview": 00-foundations/ekyc-ecosystem-overview.md
+    - "eKYC End-to-End Flow": 00-foundations/ekyc-end-to-end-flow.md
+    - "Market Landscape": 00-foundations/ekyc-market-landscape.md
+    - "Use Cases by Industry": 00-foundations/ekyc-use-cases-by-industry.md
+    - "Global Adoption": 00-foundations/ekyc-global-adoption.md
+    - "Challenges & Limitations": 00-foundations/ekyc-challenges-and-limitations.md
+    - "Future Trends": 00-foundations/ekyc-future-trends.md
+    - "Vendor Landscape": 00-foundations/ekyc-vendor-landscape.md
+  - "Identity Verification & Compliance":
+    - 01-identity-verification/index.md
+    - "KYC Deep Dive": 01-identity-verification/kyc-know-your-customer.md
+    - "eKYC Deep Dive": 01-identity-verification/ekyc-electronic-kyc-deep-dive.md
+    - "Video KYC (V-KYC)": 01-identity-verification/vkyc-video-kyc.md
+    - "Central KYC (cKYC)": 01-identity-verification/ckyc-central-kyc.md
+    - "Re-KYC": 01-identity-verification/re-kyc-periodic-reverification.md
+    - "KYB — Know Your Business": 01-identity-verification/kyb-know-your-business.md
+    - "KYT — Know Your Transaction": 01-identity-verification/kyt-know-your-transaction.md
+    - "CDD": 01-identity-verification/cdd-customer-due-diligence.md
+    - "EDD": 01-identity-verification/edd-enhanced-due-diligence.md
+    - "SDD": 01-identity-verification/sdd-simplified-due-diligence.md
+    - "AML": 01-identity-verification/aml-anti-money-laundering.md
+    - "CFT": 01-identity-verification/cft-combating-financing-of-terrorism.md
+    - "FATF": 01-identity-verification/fatf-financial-action-task-force.md
+    - "PEP": 01-identity-verification/pep-politically-exposed-persons.md
+    - "Sanctions Screening": 01-identity-verification/sanctions-screening.md
+    - "Adverse Media": 01-identity-verification/adverse-media-screening.md
+    - "UBO": 01-identity-verification/ubo-ultimate-beneficial-owner.md
+    - "Source of Funds/Wealth": 01-identity-verification/sof-sow-source-of-funds-wealth.md
+  - "Biometrics & Face":
+    - 02-biometrics-face/index.md
+  - "Document Verification":
+    - 03-document-verification/index.md
+  - "Digital Identity":
+    - 04-digital-identity/index.md
+  - "Onboarding & Workflow":
+    - 05-onboarding-workflow/index.md
+  - "Fraud & Risk":
+    - 06-fraud-risk/index.md
+  - "Regulations & Standards":
+    - 07-regulations-standards/index.md
+  - "AI/ML Techniques":
+    - 08-ai-ml-techniques/index.md
+  - "Architecture & Integration":
+    - 09-architecture/index.md
+  - "Case Studies":
+    - 10-case-studies/index.md
+  - "Business & Strategy":
+    - 11-business-strategy/index.md
