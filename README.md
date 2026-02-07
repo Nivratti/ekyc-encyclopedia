@@ -12,7 +12,7 @@ A comprehensive, structured knowledge base covering **everything about eKYC** �
 
 ## 🔗 Live Site
 
-👉 **[View the Knowledge Base](https://YOUR_USERNAME.github.io/ekyc-encyclopedia/)** *(update after deploying to GitHub Pages)*
+👉 **[View the Knowledge Base](https://nivratti.github.io/ekyc-encyclopedia/)** *(update after deploying to GitHub Pages)*
 
 ---
 
@@ -47,7 +47,7 @@ pip install mkdocs-material
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/ekyc-encyclopedia.git
+git clone https://github.com/nivratti/ekyc-encyclopedia.git
 cd ekyc-encyclopedia
 
 # Serve locally with hot reload
