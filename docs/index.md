@@ -20,8 +20,8 @@ This knowledge base contains **210+ in-depth articles** organized into 12 catego
 | 05 | **[Onboarding & Workflow](05-onboarding-workflow/index.md)** | 12 | UX flows, STP, case management, SDKs |
 | 06 | **[Fraud & Risk](06-fraud-risk/index.md)** | 16 | Identity fraud, deepfakes, risk scoring, behavioral biometrics |
 | 07 | **[Regulations & Standards](07-regulations-standards/index.md)** | 18 | GDPR, DPDP, ISO 30107, NIST FRVT, iBeta |
-| 08 | **[AI/ML Techniques](08-ai-ml-techniques/index.md)** | 20 | Domain generalization, ViT, SSL, quantization, fairness |
-| 09 | **[Architecture & Integration](09-architecture/index.md)** | 15 | System design, APIs, SDKs, model serving, security |
+| 08 | **[AI/ML Techniques](08-ai-ml-techniques/transfer-learning-ekyc.md)** | 20 | Domain generalization, ViT, SSL, quantization, fairness |
+| 09 | **[Architecture & Integration](09-infrastructure/index.md)** | 15 | System design, APIs, SDKs, model serving, security |
 | 10 | **[Case Studies](10-case-studies/index.md)** | 15 | India, EU, Singapore, crypto, neobanks, telecom |
 | 11 | **[Business & Strategy](11-business-strategy/index.md)** | 13 | Build vs buy, pricing, ROI, vendor evaluation |
 

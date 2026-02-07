@@ -386,5 +386,5 @@ Patient identity verification prevents medical identity theft, ensures correct t
 - **Next**: [Global Adoption →](ekyc-global-adoption.md)
 - [eKYC End-to-End Flow](ekyc-end-to-end-flow.md)
 - [eKYC Vendor Landscape](ekyc-vendor-landscape.md)
-- [Case Study: India Banking eKYC](../10-case-studies/case-study-india-banking-ekyc.md)
-- [Case Study: Crypto Exchange KYC](../10-case-studies/case-study-crypto-exchange-kyc.md)
+- [Case Study: India Banking eKYC](../10-case-studies/india-aadhaar-ekyc-scale.md)
+- [Case Study: Crypto Exchange KYC](../10-case-studies/crypto-exchange-kyc.md)

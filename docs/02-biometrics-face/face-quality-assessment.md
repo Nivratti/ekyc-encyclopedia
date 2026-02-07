@@ -84,4 +84,4 @@ graph TD
 - **Previous**: [← Face Alignment & Preprocessing](face-alignment-preprocessing.md)
 - **Next**: [Face Recognition Overview →](face-recognition-overview.md)
 - [Cross-Quality Face Matching](cross-quality-face-matching.md)
-- [ICAO Standards](../07-regulations-standards/icao-biometric-standards.md)
+- [ICAO Standards](../07-regulations-standards/icao-9303-travel-documents.md)

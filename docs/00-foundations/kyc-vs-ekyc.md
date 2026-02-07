@@ -249,4 +249,4 @@ graph TD
 - [What is KYC](what-is-kyc.md)
 - [eKYC End-to-End Flow](ekyc-end-to-end-flow.md)
 - [eKYC Challenges & Limitations](ekyc-challenges-and-limitations.md)
-- [eKYC System Architecture](../09-architecture/ekyc-system-architecture.md)
+- [eKYC System Architecture](../09-infrastructure/ekyc-system-architecture.md)

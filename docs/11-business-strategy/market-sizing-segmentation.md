@@ -52,4 +52,4 @@ The global eKYC market — size, growth rate, segments, and the key drivers acce
 ## Related Articles
 
 - [Competitive Landscape](competitive-landscape.md)
-- [eKYC Market Overview](../00-foundations/ekyc-market-overview.md)
+- [eKYC Market Overview](../00-foundations/ekyc-market-landscape.md)

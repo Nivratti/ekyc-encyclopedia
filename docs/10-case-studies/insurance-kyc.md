@@ -28,4 +28,4 @@ Insurance KYC is document-heavy — policy applications, beneficiary verificatio
 
 ## Related Articles
 
-- [eKYC Use Cases](../00-foundations/ekyc-use-cases.md)
+- [eKYC Use Cases](../00-foundations/ekyc-use-cases-by-industry.md)

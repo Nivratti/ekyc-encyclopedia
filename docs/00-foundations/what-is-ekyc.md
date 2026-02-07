@@ -388,5 +388,5 @@ Despite its advantages, eKYC is not without challenges:
 - **Next**: [KYC vs eKYC →](kyc-vs-ekyc.md)
 - [eKYC End-to-End Flow](ekyc-end-to-end-flow.md) — Detailed technical flow
 - [Face Liveness Detection](../02-biometrics-face/face-liveness-detection-overview.md)
-- [Document Verification Overview](../03-document-verification/document-verification-overview.md)
-- [eKYC System Architecture](../09-architecture/ekyc-system-architecture.md)
+- [Document Verification Overview](../03-document-verification/document-capture-quality.md)
+- [eKYC System Architecture](../09-infrastructure/ekyc-system-architecture.md)

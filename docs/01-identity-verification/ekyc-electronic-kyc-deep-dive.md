@@ -176,6 +176,6 @@ graph TD
 - **Previous**: [← KYC Deep Dive](kyc-know-your-customer.md)
 - **Next**: [Video KYC (V-KYC) →](vkyc-video-kyc.md)
 - [What is eKYC (Foundations)](../00-foundations/what-is-ekyc.md)
-- [GDPR and eKYC](../07-regulations-standards/gdpr-and-ekyc.md)
-- [DPDP Act India](../07-regulations-standards/dpdp-act-india.md)
+- [GDPR and eKYC](../07-regulations-standards/gdpr-ekyc.md)
+- [DPDP Act India](../07-regulations-standards/india-dpdp-act.md)
 - [RBI KYC Master Direction](../07-regulations-standards/rbi-kyc-master-direction.md)

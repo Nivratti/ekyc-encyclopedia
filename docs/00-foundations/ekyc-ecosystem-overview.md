@@ -446,5 +446,5 @@ Attackers and defenders continuously escalating:
 - **Previous**: [← Why eKYC Matters](why-ekyc-matters.md)
 - **Next**: [eKYC End-to-End Flow →](ekyc-end-to-end-flow.md)
 - [eKYC Vendor Landscape](ekyc-vendor-landscape.md) — Detailed vendor comparison
-- [Build vs Buy](../11-business-strategy/ekyc-build-vs-buy.md)
-- [eKYC System Architecture](../09-architecture/ekyc-system-architecture.md)
+- [Build vs Buy](../11-business-strategy/build-vs-buy.md)
+- [eKYC System Architecture](../09-infrastructure/ekyc-system-architecture.md)

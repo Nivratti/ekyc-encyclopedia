@@ -288,5 +288,5 @@ eKYC contributes to broader economic development:
 - [What is KYC](what-is-kyc.md)
 - [What is eKYC](what-is-ekyc.md)
 - [eKYC Use Cases by Industry](ekyc-use-cases-by-industry.md)
-- [eKYC ROI Calculation](../11-business-strategy/ekyc-roi-calculation.md)
-- [Case Study: India Banking eKYC](../10-case-studies/case-study-india-banking-ekyc.md)
+- [eKYC ROI Calculation](../11-business-strategy/roi-ekyc-implementation.md)
+- [Case Study: India Banking eKYC](../10-case-studies/india-aadhaar-ekyc-scale.md)

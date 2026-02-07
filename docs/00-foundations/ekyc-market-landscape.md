@@ -277,5 +277,5 @@ pie title "Global eKYC Market Share (Estimated)"
 - **Next**: [Use Cases by Industry →](ekyc-use-cases-by-industry.md)
 - [eKYC Vendor Landscape](ekyc-vendor-landscape.md)
 - [eKYC Ecosystem Overview](ekyc-ecosystem-overview.md)
-- [Build vs Buy](../11-business-strategy/ekyc-build-vs-buy.md)
-- [eKYC Competitive Analysis](../11-business-strategy/ekyc-competitive-analysis.md)
+- [Build vs Buy](../11-business-strategy/build-vs-buy.md)
+- [eKYC Competitive Analysis](../11-business-strategy/competitive-landscape.md)

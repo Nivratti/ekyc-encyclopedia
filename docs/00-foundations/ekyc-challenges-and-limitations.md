@@ -382,6 +382,6 @@ Despite these challenges, the industry is rapidly innovating:
 - **Next**: [Future Trends →](ekyc-future-trends.md)
 - [Deepfake Detection](../02-biometrics-face/deepfake-detection.md)
 - [Injection Attack](../02-biometrics-face/injection-attack.md)
-- [Model Fairness & Bias](../08-ai-ml-techniques/model-fairness-bias.md)
+- [Model Fairness & Bias](../02-biometrics-face/biometric-fairness-bias.md)
 - [Face Liveness Detection](../02-biometrics-face/face-liveness-detection-overview.md)
-- [GDPR and eKYC](../07-regulations-standards/gdpr-and-ekyc.md)
+- [GDPR and eKYC](../07-regulations-standards/gdpr-ekyc.md)

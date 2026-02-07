@@ -133,4 +133,4 @@ The **Travel Rule** requires VASPs (Virtual Asset Service Providers) to share or
 - **Next**: [Customer Due Diligence (CDD) →](cdd-customer-due-diligence.md)
 - [Anti-Money Laundering (AML)](aml-anti-money-laundering.md)
 - [FATF](fatf-financial-action-task-force.md)
-- [Fraud Detection ML Models](../06-fraud-risk/fraud-detection-ml-models.md)
+- [Fraud Detection ML Models](../06-fraud-risk/risk-scoring-engines.md)

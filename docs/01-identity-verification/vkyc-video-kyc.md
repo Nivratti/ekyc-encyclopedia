@@ -257,4 +257,4 @@ graph TD
 - **Next**: [Central KYC (cKYC) →](ckyc-central-kyc.md)
 - [Face Liveness Detection](../02-biometrics-face/face-liveness-detection-overview.md)
 - [Deepfake Detection](../02-biometrics-face/deepfake-detection.md)
-- [RBI V-KYC Guidelines](../07-regulations-standards/rbi-vkyc-guidelines.md)
+- [RBI V-KYC Guidelines](../07-regulations-standards/rbi-kyc-master-direction.md)

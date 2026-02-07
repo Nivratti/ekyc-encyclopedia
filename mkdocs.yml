@@ -63,7 +63,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - "Foundations":
+
+  - "🏗️ Foundations":
     - 00-foundations/index.md
     - "What is KYC": 00-foundations/what-is-kyc.md
     - "What is eKYC": 00-foundations/what-is-ekyc.md
@@ -77,7 +78,8 @@ nav:
     - "Challenges & Limitations": 00-foundations/ekyc-challenges-and-limitations.md
     - "Future Trends": 00-foundations/ekyc-future-trends.md
     - "Vendor Landscape": 00-foundations/ekyc-vendor-landscape.md
-  - "Identity Verification & Compliance":
+
+  - "🔐 Identity Verification":
     - 01-identity-verification/index.md
     - "KYC Deep Dive": 01-identity-verification/kyc-know-your-customer.md
     - "eKYC Deep Dive": 01-identity-verification/ekyc-electronic-kyc-deep-dive.md
@@ -97,23 +99,249 @@ nav:
     - "Adverse Media": 01-identity-verification/adverse-media-screening.md
     - "UBO": 01-identity-verification/ubo-ultimate-beneficial-owner.md
     - "Source of Funds/Wealth": 01-identity-verification/sof-sow-source-of-funds-wealth.md
-  - "Biometrics & Face":
+
+  - "👤 Biometrics & Face":
     - 02-biometrics-face/index.md
-  - "Document Verification":
+    - "Biometrics Overview": 02-biometrics-face/biometrics-overview.md
+    - "Face Biometrics in eKYC": 02-biometrics-face/face-biometrics-in-ekyc.md
+    - Face Detection:
+      - "Face Detection Overview": 02-biometrics-face/face-detection.md
+      - "Face Alignment & Preprocessing": 02-biometrics-face/face-alignment-preprocessing.md
+      - "Face Quality Assessment": 02-biometrics-face/face-quality-assessment.md
+    - Face Recognition:
+      - "Face Recognition Overview": 02-biometrics-face/face-recognition-overview.md
+      - "Face Recognition Architectures": 02-biometrics-face/face-recognition-architectures.md
+      - "Face Matching & Thresholds": 02-biometrics-face/face-matching-thresholds.md
+      - "Face De-Duplication (1:N)": 02-biometrics-face/face-deduplication.md
+      - "Cross-Age Face Matching": 02-biometrics-face/cross-age-face-matching.md
+      - "Cross-Quality Face Matching": 02-biometrics-face/cross-quality-face-matching.md
+      - "Template Protection": 02-biometrics-face/template-protection.md
+    - Face Liveness:
+      - "Liveness Detection Overview": 02-biometrics-face/face-liveness-detection-overview.md
+      - "Active vs Passive Liveness": 02-biometrics-face/active-vs-passive-liveness.md
+      - "Presentation Attack Types": 02-biometrics-face/presentation-attack-types.md
+      - "3D Mask Attacks": 02-biometrics-face/3d-mask-attacks.md
+      - "Face Anti-Spoofing Features": 02-biometrics-face/face-anti-spoofing-features.md
+      - "Liveness Model Architectures": 02-biometrics-face/liveness-model-architectures.md
+      - "Multi-Spectral Liveness": 02-biometrics-face/multi-spectral-liveness.md
+      - "Domain Generalization": 02-biometrics-face/domain-generalization-liveness.md
+      - "Liveness Datasets": 02-biometrics-face/liveness-datasets.md
+    - Deepfakes & Injection:
+      - "Deepfake Detection": 02-biometrics-face/deepfake-detection.md
+      - "Injection Attacks": 02-biometrics-face/injection-attack.md
+      - "Adversarial Attacks": 02-biometrics-face/adversarial-attacks-face.md
+    - Standards & Testing:
+      - "ISO 30107 PAD Testing": 02-biometrics-face/iso-30107-pad-testing.md
+      - "iBeta Certification": 02-biometrics-face/ibeta-certification.md
+      - "NIST FRVT": 02-biometrics-face/nist-frvt.md
+      - "Biometric Performance Metrics": 02-biometrics-face/biometric-performance-metrics.md
+      - "Biometric Fairness & Bias": 02-biometrics-face/biometric-fairness-bias.md
+    - Other Modalities:
+      - "Fingerprint in eKYC": 02-biometrics-face/fingerprint-ekyc.md
+      - "Iris Recognition": 02-biometrics-face/iris-recognition.md
+      - "Voice Biometrics": 02-biometrics-face/voice-biometrics.md
+      - "Behavioral Biometrics": 02-biometrics-face/behavioral-biometrics.md
+    - "On-Device Processing": 02-biometrics-face/on-device-biometric-processing.md
+
+  - "📄 Document Verification":
     - 03-document-verification/index.md
-  - "Digital Identity":
+    - Capture & Classification:
+      - "Document Capture & Quality": 03-document-verification/document-capture-quality.md
+      - "Document Classification": 03-document-verification/document-classification.md
+      - "ID Document Types Worldwide": 03-document-verification/id-document-types-worldwide.md
+    - OCR Pipeline:
+      - "OCR Pipeline for ID Documents": 03-document-verification/ocr-pipeline-id-documents.md
+      - "Text Detection Models": 03-document-verification/text-detection-models.md
+      - "Text Recognition Models": 03-document-verification/text-recognition-models.md
+      - "Document Understanding Models": 03-document-verification/document-understanding-models.md
+      - "Multi-Language OCR": 03-document-verification/multi-language-ocr.md
+    - Structured Data:
+      - "MRZ Parsing": 03-document-verification/mrz-parsing.md
+      - "Barcode & QR Code Reading": 03-document-verification/barcode-qr-reading.md
+      - "NFC Chip Reading": 03-document-verification/nfc-chip-reading.md
+    - Fraud Detection:
+      - "Document Forensics Overview": 03-document-verification/document-forensics-overview.md
+      - "Digital Tampering Detection": 03-document-verification/digital-tampering-detection.md
+      - "Document Liveness": 03-document-verification/document-liveness.md
+      - "Security Feature Validation": 03-document-verification/security-feature-validation.md
+      - "Synthetic Document Detection": 03-document-verification/synthetic-document-detection.md
+    - Verification:
+      - "Document Data Verification": 03-document-verification/document-data-verification.md
+      - "Address Verification": 03-document-verification/address-verification.md
+    - Scale & Vendors:
+      - "Document Processing at Scale": 03-document-verification/document-processing-at-scale.md
+      - "Document Verification Vendors": 03-document-verification/document-verification-vendors.md
+
+  - "🌐 Digital Identity":
     - 04-digital-identity/index.md
-  - "Onboarding & Workflow":
+    - "Digital Identity Overview": 04-digital-identity/digital-identity-overview.md
+    - "Identity Assurance Levels": 04-digital-identity/identity-assurance-levels.md
+    - "Reusable KYC": 04-digital-identity/reusable-kyc.md
+    - "eIDAS & EU Digital Identity": 04-digital-identity/eidas-eu-digital-identity.md
+    - "W3C Verifiable Credentials": 04-digital-identity/w3c-verifiable-credentials.md
+    - "Decentralized Identifiers": 04-digital-identity/decentralized-identifiers.md
+    - "Self-Sovereign Identity": 04-digital-identity/self-sovereign-identity.md
+    - "Identity Wallets": 04-digital-identity/identity-wallets.md
+    - "India Stack": 04-digital-identity/india-stack.md
+    - "Singapore Singpass / MyInfo": 04-digital-identity/singapore-singpass-myinfo.md
+    - "Estonia e-Residency": 04-digital-identity/estonia-e-residency.md
+    - "Impact on eKYC": 04-digital-identity/digital-identity-impact-ekyc.md
+
+  - "🚀 Onboarding Workflow":
     - 05-onboarding-workflow/index.md
-  - "Fraud & Risk":
+    - SDK & Integration:
+      - "eKYC SDK Architecture": 05-onboarding-workflow/ekyc-sdk-architecture.md
+      - "SDK Integration Patterns": 05-onboarding-workflow/sdk-integration-patterns.md
+      - "API Design for eKYC": 05-onboarding-workflow/api-design-ekyc.md
+    - User Experience:
+      - "eKYC UX Best Practices": 05-onboarding-workflow/ekyc-ux-best-practices.md
+      - "Conversion Optimization": 05-onboarding-workflow/conversion-optimization.md
+      - "Accessibility in eKYC": 05-onboarding-workflow/accessibility-ekyc.md
+      - "Multi-Channel Onboarding": 05-onboarding-workflow/multi-channel-onboarding.md
+    - Decision & Processing:
+      - "Decision Engine Architecture": 05-onboarding-workflow/decision-engine-architecture.md
+      - "Manual Review Workflow": 05-onboarding-workflow/manual-review-workflow.md
+      - "Webhook & Callback Architecture": 05-onboarding-workflow/webhook-callback-architecture.md
+    - Operations:
+      - "Monitoring & Observability": 05-onboarding-workflow/ekyc-monitoring-observability.md
+      - "A/B Testing for eKYC": 05-onboarding-workflow/ab-testing-ekyc.md
+      - "Retry & Fallback Strategies": 05-onboarding-workflow/retry-fallback-strategies.md
+      - "Vendor Orchestration": 05-onboarding-workflow/vendor-orchestration.md
+      - "Analytics & Reporting": 05-onboarding-workflow/ekyc-analytics-reporting.md
+
+  - "🛡️ Fraud & Risk":
     - 06-fraud-risk/index.md
-  - "Regulations & Standards":
+    - Fraud Landscape:
+      - "Identity Fraud Overview": 06-fraud-risk/identity-fraud-overview.md
+      - "Synthetic Identity Fraud": 06-fraud-risk/synthetic-identity-fraud.md
+      - "Account Takeover": 06-fraud-risk/account-takeover.md
+      - "Document Fraud Patterns": 06-fraud-risk/document-fraud-patterns.md
+      - "Fraud Rings & Organized Fraud": 06-fraud-risk/fraud-rings-organized.md
+    - Risk Assessment:
+      - "Risk Scoring Engines": 06-fraud-risk/risk-scoring-engines.md
+      - "Device Intelligence": 06-fraud-risk/device-intelligence.md
+      - "Behavioral Analytics": 06-fraud-risk/behavioral-analytics-fraud.md
+      - "Network Analysis": 06-fraud-risk/network-analysis-fraud.md
+    - Emerging Threats:
+      - "AI-Powered Fraud": 06-fraud-risk/ai-powered-fraud.md
+      - "Fraud-as-a-Service": 06-fraud-risk/fraud-as-a-service.md
+      - "Money Mule Detection": 06-fraud-risk/money-mule-detection.md
+    - Defense:
+      - "Fraud Prevention Framework": 06-fraud-risk/fraud-prevention-framework.md
+      - "Consortium Data & Fraud Sharing": 06-fraud-risk/consortium-fraud-sharing.md
+      - "Fraud Economics & ROI": 06-fraud-risk/fraud-economics-roi.md
+
+  - "⚖️ Regulations & Standards":
     - 07-regulations-standards/index.md
-  - "AI/ML Techniques":
+    - Privacy:
+      - "GDPR & eKYC": 07-regulations-standards/gdpr-ekyc.md
+      - "India DPDP Act": 07-regulations-standards/india-dpdp-act.md
+      - "Global Privacy Laws": 07-regulations-standards/global-privacy-laws-ekyc.md
+      - "Biometric Data Protection": 07-regulations-standards/biometric-data-protection.md
+    - AML/KYC:
+      - "RBI KYC Master Direction": 07-regulations-standards/rbi-kyc-master-direction.md
+      - "EU AML Regulations": 07-regulations-standards/eu-aml-regulations.md
+      - "USA BSA/CIP/CDD": 07-regulations-standards/usa-bsa-cip-cdd.md
+      - "FATF Mutual Evaluations": 07-regulations-standards/fatf-mutual-evaluations.md
+      - "Regional KYC Regulations": 07-regulations-standards/regional-kyc-regulations.md
+    - AI Regulation:
+      - "EU AI Act & Biometrics": 07-regulations-standards/eu-ai-act-biometrics.md
+      - "Algorithmic Accountability": 07-regulations-standards/algorithmic-accountability.md
+    - Technical Standards:
+      - "ISO 30107 (PAD Testing)": 07-regulations-standards/iso-30107-overview.md
+      - "ISO 19795 (Biometric Performance)": 07-regulations-standards/iso-19795-biometric-performance.md
+      - "ICAO 9303 (Travel Documents)": 07-regulations-standards/icao-9303-travel-documents.md
+      - "NIST SP 800-63": 07-regulations-standards/nist-sp-800-63.md
+      - "eIDAS Technical Standards": 07-regulations-standards/eidas-technical-standards.md
+    - Compliance:
+      - "Building a Compliance Program": 07-regulations-standards/building-compliance-program.md
+      - "Regulatory Sandboxes": 07-regulations-standards/regulatory-sandboxes.md
+
+  - "🧠 AI/ML Techniques":
     - 08-ai-ml-techniques/index.md
-  - "Architecture & Integration":
-    - 09-architecture/index.md
-  - "Case Studies":
+    - Training Strategies:
+      - "Transfer Learning": 08-ai-ml-techniques/transfer-learning-ekyc.md
+      - "Self-Supervised Learning": 08-ai-ml-techniques/self-supervised-learning.md
+      - "Domain Generalization": 08-ai-ml-techniques/domain-generalization.md
+      - "Data Augmentation": 08-ai-ml-techniques/data-augmentation-ekyc.md
+      - "Synthetic Data Generation": 08-ai-ml-techniques/synthetic-data-generation.md
+      - "Few-Shot & Zero-Shot": 08-ai-ml-techniques/few-shot-zero-shot.md
+      - "Active Learning": 08-ai-ml-techniques/active-learning.md
+    - Architectures:
+      - "CNNs for eKYC": 08-ai-ml-techniques/cnns-ekyc.md
+      - "Vision Transformers": 08-ai-ml-techniques/vision-transformers-ekyc.md
+      - "Multi-Task Learning": 08-ai-ml-techniques/multi-task-learning.md
+      - "Knowledge Distillation": 08-ai-ml-techniques/knowledge-distillation.md
+      - "Foundation Models": 08-ai-ml-techniques/foundation-models-ekyc.md
+    - Deployment:
+      - "Model Optimization & Quantization": 08-ai-ml-techniques/model-optimization-quantization.md
+      - "Model Serving Architecture": 08-ai-ml-techniques/model-serving-architecture.md
+      - "MLOps for eKYC": 08-ai-ml-techniques/mlops-ekyc.md
+      - "Model Drift & Retraining": 08-ai-ml-techniques/model-drift-retraining.md
+      - "Edge AI Deployment": 08-ai-ml-techniques/edge-ai-deployment.md
+    - Evaluation:
+      - "Evaluation Methodology": 08-ai-ml-techniques/evaluation-methodology.md
+      - "Error Analysis": 08-ai-ml-techniques/error-analysis-ekyc.md
+      - "Explainable AI": 08-ai-ml-techniques/explainable-ai-ekyc.md
+
+  - "🏗️ Infrastructure":
+    - 09-infrastructure/index.md
+    - "eKYC System Architecture": 09-infrastructure/ekyc-system-architecture.md
+    - "Cloud Architecture": 09-infrastructure/cloud-architecture-ekyc.md
+    - "Microservices vs Monolith": 09-infrastructure/microservices-vs-monolith.md
+    - "Multi-Tenant Architecture": 09-infrastructure/multi-tenant-architecture.md
+    - "GPU Infrastructure": 09-infrastructure/gpu-infrastructure.md
+    - "Data Pipeline Architecture": 09-infrastructure/data-pipeline-architecture.md
+    - "Image & Video Storage": 09-infrastructure/image-video-storage.md
+    - "Vector Database & Face Search": 09-infrastructure/vector-database-face-search.md
+    - "Data Encryption Strategy": 09-infrastructure/data-encryption-strategy.md
+    - "Security Architecture": 09-infrastructure/security-architecture.md
+    - "High Availability": 09-infrastructure/high-availability.md
+    - "Disaster Recovery": 09-infrastructure/disaster-recovery.md
+    - "Performance Optimization": 09-infrastructure/performance-optimization.md
+    - "Load Testing": 09-infrastructure/load-testing-ekyc.md
+    - "CI/CD for eKYC": 09-infrastructure/cicd-ekyc.md
+    - "Audit Logging & Compliance": 09-infrastructure/audit-logging-compliance.md
+    - "On-Premise vs Cloud": 09-infrastructure/on-premise-vs-cloud.md
+    - "Cost Optimization": 09-infrastructure/cost-optimization.md
+
+  - "📋 Case Studies":
     - 10-case-studies/index.md
-  - "Business & Strategy":
+    - "Banking eKYC": 10-case-studies/banking-ekyc.md
+    - "Fintech / Neobank": 10-case-studies/fintech-neobank.md
+    - "Crypto Exchange KYC": 10-case-studies/crypto-exchange-kyc.md
+    - "Telecom KYC": 10-case-studies/telecom-kyc.md
+    - "Insurance KYC": 10-case-studies/insurance-kyc.md
+    - "India Aadhaar Scale": 10-case-studies/india-aadhaar-ekyc-scale.md
+    - "Southeast Asia eKYC": 10-case-studies/southeast-asia-ekyc.md
+    - "Africa Financial Inclusion": 10-case-studies/africa-financial-inclusion.md
+    - "USA — No National ID": 10-case-studies/usa-no-national-id.md
+    - "EU eIDAS Onboarding": 10-case-studies/eu-eidas-onboarding.md
+    - "Gaming Age Verification": 10-case-studies/gaming-age-verification.md
+    - "Government Digital Services": 10-case-studies/government-digital-services.md
+    - "Manual to Automated": 10-case-studies/manual-to-automated.md
+    - "Multi-Vendor Integration": 10-case-studies/multi-vendor-integration.md
+    - "eKYC Benchmarking": 10-case-studies/ekyc-benchmarking.md
+
+  - "💼 Business Strategy":
     - 11-business-strategy/index.md
+    - Market & Positioning:
+      - "Market Sizing & Segmentation": 11-business-strategy/market-sizing-segmentation.md
+      - "Competitive Landscape": 11-business-strategy/competitive-landscape.md
+      - "Build vs Buy": 11-business-strategy/build-vs-buy.md
+    - Pricing & Economics:
+      - "eKYC Pricing Models": 11-business-strategy/ekyc-pricing-models.md
+      - "Unit Economics": 11-business-strategy/unit-economics.md
+      - "ROI of eKYC": 11-business-strategy/roi-ekyc-implementation.md
+    - Go-to-Market:
+      - "Selling to Banks & Enterprises": 11-business-strategy/selling-banks-enterprises.md
+      - "Selling to Fintechs & Startups": 11-business-strategy/selling-fintechs-startups.md
+      - "Geographic Expansion": 11-business-strategy/geographic-expansion.md
+    - Product Strategy:
+      - "eKYC Product Roadmap": 11-business-strategy/ekyc-product-roadmap.md
+      - "Platform vs Point Solution": 11-business-strategy/platform-vs-point-solution.md
+      - "Partner Ecosystem": 11-business-strategy/partner-ecosystem.md
+    - Future:
+      - "Digital Identity Business Impact": 11-business-strategy/digital-identity-business-impact.md
+      - "AI Arms Race Strategy": 11-business-strategy/ai-arms-race-strategy.md
+      - "eKYC in Emerging Markets": 11-business-strategy/ekyc-emerging-markets.md

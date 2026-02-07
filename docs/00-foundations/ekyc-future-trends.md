@@ -426,9 +426,9 @@ gantt
 
 - **Previous**: [← Challenges & Limitations](ekyc-challenges-and-limitations.md)
 - **Next**: [Vendor Landscape →](ekyc-vendor-landscape.md)
-- [Decentralized Identity (DID)](../04-digital-identity/did-decentralized-identity.md)
-- [Verifiable Credentials](../04-digital-identity/verifiable-credentials.md)
-- [Digital Identity Wallet](../04-digital-identity/digital-identity-wallet.md)
+- [Decentralized Identity (DID)](../04-digital-identity/decentralized-identifiers.md)
+- [Verifiable Credentials](../04-digital-identity/w3c-verifiable-credentials.md)
+- [Digital Identity Wallet](../04-digital-identity/identity-wallets.md)
 - [Deepfake Detection](../02-biometrics-face/deepfake-detection.md)
-- [Edge AI / On-Device Inference](../08-ai-ml-techniques/edge-ai-on-device-inference.md)
+- [Edge AI / On-Device Inference](../08-ai-ml-techniques/edge-ai-deployment.md)
 - [Domain Generalization](../08-ai-ml-techniques/domain-generalization.md)

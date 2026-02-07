@@ -785,4 +785,4 @@ graph TD
 - [Face Liveness Detection](../02-biometrics-face/face-liveness-detection-overview.md)
 - [Document Forensics](../03-document-verification/document-forensics-overview.md)
 - [Risk Scoring Engines](../06-fraud-risk/risk-scoring-engines.md)
-- [eKYC System Architecture](../09-architecture/ekyc-system-architecture.md)
+- [eKYC System Architecture](../09-infrastructure/ekyc-system-architecture.md)
